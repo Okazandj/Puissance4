@@ -3,13 +3,13 @@ public class Exemple
     //Initialisation de la matrice de donnees
     public static void initPlateau(int[][] matrice) 
     {
-	for(int col = 0 ; col < matrice.length ; col++)
-	{
-	    for(int lig = 0 ; lig < matrice[0].length ; lig++)
-	    {
-		matrice[col][lig] = 0;
-	    }
-	}
+		for(int col = 0 ; col < matrice.length ; col++)
+		{
+			for(int lig = 0 ; lig < matrice[0].length ; lig++)
+			{
+				matrice[col][lig] = 0;
+			}
+		}
     }
 	
 
@@ -24,7 +24,7 @@ public class Exemple
 	final int JOUEUR_1 = 1;
 	final int JOUEUR_2 = 2;
 		
-	//Initialisation des cases du plateau à 0
+	//Initialisation des cases du plateau ï¿½ 0
 	initPlateau(plateau);
 
 	//Creation et initialisation de l'interface graphique
